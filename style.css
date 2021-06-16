@@ -137,7 +137,7 @@ header
     height: 180px;
     background-color: #808080;
     box-sizing: border-box;
-    padding: 0px 10px 10px 10px;
+    padding: 0px 25px 16px 10px;
     /* margin-bottom: 10px; */
 
 }
@@ -199,19 +199,18 @@ header
 
 .text 
 {
-    font-family: ArialMT;
-    font-size: 14;
+    font-family: "ArialMT";
+    font-size: 14px;
     line-height: 22px;
     color: #ffff;  
 }
 
 .text_10_block
-{
-    font-family: ArialMT;
-    line-height: 22px;
-    font-size: 14px;
-}
-
+    {
+        font-family: "ArialMT";
+        line-height: 22px;
+        font-size: 14px;
+    } 
 
 .line 
 {
@@ -228,9 +227,12 @@ header
     height: 131px;
 }
 
+.block 
+{
+    display: block;
+}
 @font-face
 {
     font-family: ArialMT;
     src: url('fonts/ArialMT.ttf');
 }
-
